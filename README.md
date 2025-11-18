@@ -62,7 +62,7 @@ Para executar este projeto em sua máquina local, siga os passos abaixo:
 
 ## 📸 Telas (Screenshots)
 
-*(Adicione aqui screenshots do seu sistema para demonstrar a interface!)*
+*Tela de Usuário*
 
 **Exemplo: Tela de Login**
 
