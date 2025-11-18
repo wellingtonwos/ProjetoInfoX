@@ -43,7 +43,7 @@ public class TelaSobre extends javax.swing.JFrame {
         jLabel3.setText("Sobre Licença GPL");
 
         jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\welli\\Downloads\\gpl.png")); // NOI18N
-        jLabel4.setText("jLabel4");
+        jLabel4.setText("GNU");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

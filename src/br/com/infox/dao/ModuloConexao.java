@@ -29,7 +29,7 @@ import java.sql.*;
  * Conexão com o banco de dados
  *
  * @author Wellington Oliveira
- * @version 1.1
+ * @version 2.0
  */
 public class ModuloConexao {
 
@@ -43,13 +43,13 @@ public class ModuloConexao {
         Connection conexao = null;
 
         String driver = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3306/dbinfox?characterEncoding=utf-8";
-        String user = "dba";
-        String password = "";
+        String url = "jdbc:mysql://localhost:3312/dbinfox?characterEncoding=utf-8";
+        String user = "root";
+        String password = "Wos031221Twd.";
 
         try {
 
-            Class.forName(driver);
+        	Class.forName("com.mysql.cj.jdbc.Driver");
             conexao = DriverManager.getConnection(url, user, password);
             return conexao;
 
